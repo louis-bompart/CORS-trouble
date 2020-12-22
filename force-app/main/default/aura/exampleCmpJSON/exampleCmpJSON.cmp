@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForRecordHome">
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:attribute name="dataJson" type="String" default="loading" />
+  <div aura:id="myEl">{!v.dataJson}</div>
+</aura:component>

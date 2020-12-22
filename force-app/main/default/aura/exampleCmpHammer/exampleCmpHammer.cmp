@@ -1,0 +1,27 @@
+<aura:component implements="flexipage:availableForRecordHome">
+  <ltng:require
+    scripts="{!join(',',
+            $Resource.test + '/hammer/lib.js',
+            $Resource.test2 + '/hammer/libcopy.js',
+            $Resource.test + '/hammer/libcopy2.js',
+            $Resource.test2 + '/hammer/libcopy3.js',
+            $Resource.test + '/hammer/libcopy4.js',
+            $Resource.test2 + '/hammer/libcopy5.js',
+            $Resource.test + '/hammer/libcopy6.js',
+            $Resource.test2 + '/hammer/libcopy7.js',
+            $Resource.test + '/hammer/libcopy8.js',
+            $Resource.test2 + '/hammer/libcopy9.js',
+            $Resource.test + '/hammer/libcopy10.js',
+            $Resource.test2 + '/hammer/libcopy11.js',
+            $Resource.test + '/hammer/libcopy12.js',
+            $Resource.test2 + '/hammer/libcopy13.js',
+            $Resource.test + '/hammer/libcopy14.js',
+            $Resource.test2 + '/hammer/libcopy15.js',
+            $Resource.test + '/hammer/libcopy16.js',
+            $Resource.test2 + '/hammer/libcopy17.js',
+            $Resource.test + '/hammer/libcopy18.js'  
+        )}"
+    afterScriptsLoaded="{!c.setup}"
+  />
+  <div aura:id="myEl"></div>
+</aura:component>

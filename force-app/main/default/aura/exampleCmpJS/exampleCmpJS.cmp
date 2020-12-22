@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForRecordHome">
+    <ltng:require
+        scripts="{!$Resource.test + '/js/lib.js'}"
+        afterScriptsLoaded="{!c.setup}"
+    />
+    <div aura:id="myEl"></div>
+</aura:component>
