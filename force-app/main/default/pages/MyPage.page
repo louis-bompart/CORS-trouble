@@ -1,0 +1,7 @@
+<apex:page standardController="Case" docType="html-5.0">
+    <apex:includeScript value="{!URLFOR($Resource.test,'js/lib.js')}" />
+    <div id='foo'></div>
+    <script>
+        _myLib.appendHello(document.getElementById('foo'))
+    </script>
+</apex:page>
